@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 你们有执着的食物吗
+title: 🍔 你们有执着的食物吗
 categories: diary
 ---
 

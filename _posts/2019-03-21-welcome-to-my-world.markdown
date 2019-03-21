@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to My Blog!"
+title:  🏫 Welcome to My New Blog!
 date:   2019-03-21 10:34:41 +0800
 categories: diary
 ---

@@ -22,12 +22,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 icp: "京ICP备18014528号"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: rzqiang
-# github_username:  renzengqiang
+google_analytics: UA-136760683-1
 
 # Build settings
 markdown: kramdown
 theme: minima
+# show_excerpts: true
 # theme: jekyll-theme-slate
 plugins:
   - jekyll-feed

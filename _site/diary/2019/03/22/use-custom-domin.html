@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.0 -->
+<title>Use Custom Domin 启用自定义域名 | Dion’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Use Custom Domin 启用自定义域名" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="背景 自己的云服务器马上就要到期，暂时并没有续费打算 低配服务器个人博客体验不好 维护困难，对于我日常想写点东西来讲，自己维护一个系统任务偏重" />
+<meta property="og:description" content="背景 自己的云服务器马上就要到期，暂时并没有续费打算 低配服务器个人博客体验不好 维护困难，对于我日常想写点东西来讲，自己维护一个系统任务偏重" />
+<link rel="canonical" href="http://localhost:4000/diary/2019/03/22/use-custom-domin.html" />
+<meta property="og:url" content="http://localhost:4000/diary/2019/03/22/use-custom-domin.html" />
+<meta property="og:site_name" content="Dion’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-22T18:00:00+08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/diary/2019/03/22/use-custom-domin.html","headline":"Use Custom Domin 启用自定义域名","dateModified":"2019-03-22T18:00:00+08:00","datePublished":"2019-03-22T18:00:00+08:00","description":"背景 自己的云服务器马上就要到期，暂时并没有续费打算 低配服务器个人博客体验不好 维护困难，对于我日常想写点东西来讲，自己维护一个系统任务偏重","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/diary/2019/03/22/use-custom-domin.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dion's Blog" /></head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Dion&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Use Custom Domin 启用自定义域名</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-03-22T18:00:00+08:00" itemprop="datePublished">Mar 22, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h4 id="背景">背景</h4>
+<ul>
+  <li>自己的云服务器马上就要到期，暂时并没有续费打算</li>
+  <li>低配服务器个人博客体验不好</li>
+  <li>维护困难，对于我日常想写点东西来讲，自己维护一个系统任务偏重</li>
+</ul>
+
+<p>痛定思痛，决定把原来的域名也简单搬迁过来</p>
+
+<blockquote>
+  <p>zengqiang.ren</p>
+</blockquote>
+
+<p>对这个域名一直情有独钟，搬迁过程很顺利，只需要修改域名 <code class="highlighter-rouge">cname</code> 记录，解析到自己的 <code class="highlighter-rouge">github io</code> 博客地址即可<br />
+过程并不困难，简单梳理之</p>
+
+<h4 id="步骤">步骤</h4>
+
+<ol>
+  <li>到域名后台修改域名 <code class="highlighter-rouge">CNAME</code></li>
+  <li>到 <code class="highlighter-rouge">github</code> 项目对应的 <code class="highlighter-rouge">settings</code> 里面修改自己的域名设置</li>
+  <li>建议开启 https，直接勾选<code class="highlighter-rouge">Enforce https</code>即可，勾选完成之后因为新的证书需要签发，所以需要有<strong>24小时</strong>左右等待证书（实际上并不会这么久）</li>
+  <li>修改自己主题的 <code class="highlighter-rouge">_includes/footer.html</code>，增加备案信息 <strong>【重要】</strong></li>
+</ol>
+
+<h4 id="部分参考">部分参考</h4>
+
+<ul>
+  <li>默认主题 <a href="https://github.com/jekyll/minima">minima</a> 地址</li>
+  <li>配置自己的域名 <a href="https://help.github.com/en/articles/using-a-custom-domain-with-github-pages">Using a custom domain with GitHub Pages</a></li>
+  <li><a href="https://jekyllrb.com/">jekyll</a> 工具</li>
+  <li><a href="https://github.com/topics/jekyll-plugin">jekyll插件</a> 地址，比较实用的如：<a href="https://github.com/jekyll/jekyll-admin">jekyll admin</a> 提供<code class="highlighter-rouge">CMS-style</code>管理控制台</li>
+</ul>
+
+<h4 id="延伸">延伸</h4>
+
+<p>过程中也翻到了其他博客框架，如：<a href="https://hexo.io/zh-cn/">Hexo</a>，但是因为时间不充分，并没有深入研究<br />
+感谢开源世界给我力量🌹</p>
+
+  </div><a class="u-url" href="/diary/2019/03/22/use-custom-domin.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col one-half">
+      <h2 class="footer-heading">Dion&#39;s Blog</h2>
+        <ul class="contact-list">
+          <li class="p-name">Dion&#39;s Blog</li><li><a class="u-email" href="mailto:zengqiangren@gmail.com">zengqiangren@gmail.com</a></li><li><a class="u-icp" href="http://www.miitbeian.gov.cn/">京ICP备18014528号</a></li></ul>
+      </div>
+
+      <div class="footer-col one-half">
+        <p>Love what you do &amp;  Do what you Love. Cause LIFT is so shot.</p>
+      </div>
+
+      <div class="social-links"><ul class="social-media-list"><li><a href="https://www.facebook.com/zengqiang.ren" title="zengqiang.ren"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#facebook"></use></svg></a></li><li><a href="https://github.com/renzengqiang" title="renzengqiang"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a href="https://twitter.com/rzqiang" title="rzqiang"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

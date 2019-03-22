@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-22T18:10:44+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dion’s Blog</title><subtitle>Love what you do &amp;  Do what you Love. Cause LIFT is so shot.</subtitle><entry><title type="html">🏫 Welcome to My New Blog!</title><link href="http://localhost:4000/diary/2019/03/21/welcome-to-my-world.html" rel="alternate" type="text/html" title="🏫 Welcome to My New Blog!" /><published>2019-03-21T10:34:41+08:00</published><updated>2019-03-21T10:34:41+08:00</updated><id>http://localhost:4000/diary/2019/03/21/welcome-to-my-world</id><content type="html" xml:base="http://localhost:4000/diary/2019/03/21/welcome-to-my-world.html">&lt;p&gt;This is my first post.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-22T19:00:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dion’s Blog</title><subtitle>Love what you do &amp;  Do what you Love. Cause LIFT is so shot.</subtitle><entry><title type="html">Use Custom Domin 启用自定义域名</title><link href="http://localhost:4000/diary/2019/03/22/use-custom-domin.html" rel="alternate" type="text/html" title="Use Custom Domin 启用自定义域名" /><published>2019-03-22T18:00:00+08:00</published><updated>2019-03-22T18:00:00+08:00</updated><id>http://localhost:4000/diary/2019/03/22/use-custom-domin</id><content type="html" xml:base="http://localhost:4000/diary/2019/03/22/use-custom-domin.html">&lt;h4 id=&quot;背景&quot;&gt;背景&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;自己的云服务器马上就要到期，暂时并没有续费打算&lt;/li&gt;
+  &lt;li&gt;低配服务器个人博客体验不好&lt;/li&gt;
+  &lt;li&gt;维护困难，对于我日常想写点东西来讲，自己维护一个系统任务偏重&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;痛定思痛，决定把原来的域名也简单搬迁过来&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;zengqiang.ren&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对这个域名一直情有独钟，搬迁过程很顺利，只需要修改域名 &lt;code class=&quot;highlighter-rouge&quot;&gt;cname&lt;/code&gt; 记录，解析到自己的 &lt;code class=&quot;highlighter-rouge&quot;&gt;github io&lt;/code&gt; 博客地址即可&lt;br /&gt;
+过程并不困难，简单梳理之&lt;/p&gt;
+
+&lt;h4 id=&quot;步骤&quot;&gt;步骤&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;到域名后台修改域名 &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;到 &lt;code class=&quot;highlighter-rouge&quot;&gt;github&lt;/code&gt; 项目对应的 &lt;code class=&quot;highlighter-rouge&quot;&gt;settings&lt;/code&gt; 里面修改自己的域名设置&lt;/li&gt;
+  &lt;li&gt;建议开启 https，直接勾选&lt;code class=&quot;highlighter-rouge&quot;&gt;Enforce https&lt;/code&gt;即可，勾选完成之后因为新的证书需要签发，所以需要有&lt;strong&gt;24小时&lt;/strong&gt;左右等待证书（实际上并不会这么久）&lt;/li&gt;
+  &lt;li&gt;修改自己主题的 &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/footer.html&lt;/code&gt;，增加备案信息 &lt;strong&gt;【重要】&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;部分参考&quot;&gt;部分参考&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;默认主题 &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;minima&lt;/a&gt; 地址&lt;/li&gt;
+  &lt;li&gt;配置自己的域名 &lt;a href=&quot;https://help.github.com/en/articles/using-a-custom-domain-with-github-pages&quot;&gt;Using a custom domain with GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; 工具&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/topics/jekyll-plugin&quot;&gt;jekyll插件&lt;/a&gt; 地址，比较实用的如：&lt;a href=&quot;https://github.com/jekyll/jekyll-admin&quot;&gt;jekyll admin&lt;/a&gt; 提供&lt;code class=&quot;highlighter-rouge&quot;&gt;CMS-style&lt;/code&gt;管理控制台&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;延伸&quot;&gt;延伸&lt;/h4&gt;
+
+&lt;p&gt;过程中也翻到了其他博客框架，如：&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;Hexo&lt;/a&gt;，但是因为时间不充分，并没有深入研究&lt;br /&gt;
+感谢开源世界给我力量🌹&lt;/p&gt;</content><author><name></name></author><summary type="html">背景 自己的云服务器马上就要到期，暂时并没有续费打算 低配服务器个人博客体验不好 维护困难，对于我日常想写点东西来讲，自己维护一个系统任务偏重</summary></entry><entry><title type="html">🏫 Welcome to My New Blog!</title><link href="http://localhost:4000/diary/2019/03/21/welcome-to-my-world.html" rel="alternate" type="text/html" title="🏫 Welcome to My New Blog!" /><published>2019-03-21T10:34:41+08:00</published><updated>2019-03-21T10:34:41+08:00</updated><id>http://localhost:4000/diary/2019/03/21/welcome-to-my-world</id><content type="html" xml:base="http://localhost:4000/diary/2019/03/21/welcome-to-my-world.html">&lt;p&gt;This is my first post.&lt;/p&gt;
 
 &lt;p&gt;As usual, say hello to the world:&lt;/p&gt;
 

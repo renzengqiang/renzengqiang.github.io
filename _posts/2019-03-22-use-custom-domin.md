@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Use Custom Domin 启用自定义域名
+title:  Use Custom Domain 启用自定义域名
 date:   2019-03-22 18:00:00 +0800
 categories: diary
 ---

@@ -23,5 +23,5 @@ his name is __Aymeric Augustin__
 * 图片来自[barber.org.uk](http://barber.org.uk/claude-monet-1840-1926/)  
 
 同样的匆匆一瞥，追光逐影  
-画的名字叫做`THE CHURCH AT VARENGEVILLE`，做于1882年，当时莫奈41岁  
+画的名字叫做`THE CHURCH AT VARENGEVILLE`，作于1882年，当时莫奈41岁  
 生活中很多特别容易让人忽视的一幕，这一幕就是印象，就是光影，就是看到日落时的惊喜，就是阴沉天气看到树梢处点亮的灯光的安全感  

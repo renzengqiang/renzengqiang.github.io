@@ -23,6 +23,7 @@ icp: "京ICP备18014528号"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-136760683-1
+url: "https://zengqiang.ren"
 
 # Build settings
 markdown: kramdown
@@ -31,6 +32,7 @@ show_excerpts: true
 # theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

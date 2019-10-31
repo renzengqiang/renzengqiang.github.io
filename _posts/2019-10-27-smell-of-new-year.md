@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  嗅到了新年的气氛
+title:  嗅到了新年的气息
 categories: diary
 ---
 

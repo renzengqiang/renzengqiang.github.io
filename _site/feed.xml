@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-18T00:07:28+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dion’s Blog</title><subtitle>Love what you do &amp;  Do what you Love. Cause LIFT is so shot.</subtitle><entry><title type="html">英国日记（三）</title><link href="http://localhost:4000/diary/2020/03/17/food-master.html" rel="alternate" type="text/html" title="英国日记（三）" /><published>2020-03-17T00:00:00+00:00</published><updated>2020-03-17T00:00:00+00:00</updated><id>http://localhost:4000/diary/2020/03/17/food-master</id><content type="html" xml:base="http://localhost:4000/diary/2020/03/17/food-master.html">&lt;p&gt;难得得到机会精进一下厨艺，昨天做了西红柿打卤面，今天做了土豆炖茄子。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-22T00:47:38+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dion’s Blog</title><subtitle>Love what you do &amp;  Do what you Love. Cause LIFT is so shot.</subtitle><entry><title type="html">英国日记（四）</title><link href="http://localhost:4000/diary/2020/03/22/keep-running-with-hope.html" rel="alternate" type="text/html" title="英国日记（四）" /><published>2020-03-22T00:00:00+00:00</published><updated>2020-03-22T00:00:00+00:00</updated><id>http://localhost:4000/diary/2020/03/22/keep-running-with-hope</id><content type="html" xml:base="http://localhost:4000/diary/2020/03/22/keep-running-with-hope.html">&lt;p&gt;&lt;strong&gt;但是太阳，它每时每刻都是夕阳也都是旭日。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;刚好写作业要用Genetic programming 拟合数据，顺手求了下英国每日新增的拟合函数。我猜22号应该是&amp;gt;= 860。&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;venv&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; C:&lt;span class=&quot;se&quot;&gt;\U&lt;/span&gt;sers&lt;span class=&quot;se&quot;&gt;\D&lt;/span&gt;ion&amp;gt;python GP.py &lt;span class=&quot;nt&quot;&gt;-question&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;22&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-expr&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;(mul (max (max (sub (div (sub 1 (data 0)) (sub 1 1)) (add 0 2)) (sub (data 0) 2)) (sub 0 2)) (sub (mul (data 0) 2) 1))&quot;&lt;/span&gt;
+860.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;感谢媳妇寄来的物资。&lt;/p&gt;
+
+&lt;p&gt;不禁想起了李后主的词“最是仓皇辞庙日”，想过一万种阻挡我好好学习的理由，没想到被疫情摆了一道。寒假结束上飞机前经历了战争，本来走阿联酋被迫绕道俄罗斯；两个月后又经历了疫情；Jard Mason Diamond说人类社会命运是 Guns, Germs, and Steel 我感觉我用两个月把人类进化历史关键阶段都经历了一遍。&lt;/p&gt;
+
+&lt;p&gt;Anyway，还是要充满希望。史铁生在我与地坛里讲“但是太阳，它每时每刻都是夕阳也都是旭日。”希望很快太阳能燃烧着爬上山巅布散烈烈朝晖。希望人人健康，世界和平。&lt;/p&gt;</content><author><name></name></author><summary type="html">但是太阳，它每时每刻都是夕阳也都是旭日。</summary></entry><entry><title type="html">英国日记（三）</title><link href="http://localhost:4000/diary/2020/03/17/food-master.html" rel="alternate" type="text/html" title="英国日记（三）" /><published>2020-03-17T00:00:00+00:00</published><updated>2020-03-17T00:00:00+00:00</updated><id>http://localhost:4000/diary/2020/03/17/food-master</id><content type="html" xml:base="http://localhost:4000/diary/2020/03/17/food-master.html">&lt;p&gt;难得得到机会精进一下厨艺，昨天做了西红柿打卤面，今天做了土豆炖茄子。&lt;/p&gt;
 
 &lt;p&gt;发现了一下小诀窍。什么呢？——放白糖&lt;/p&gt;
 
@@ -200,19 +212,4 @@
 我觉得我属于后者，想要快点毕业，快点投入到以前的热土&lt;/p&gt;
 
 &lt;p&gt;我觉得我并不是活在过去，而且现在发现，为什么过去的我没有发觉到自己的幸福&lt;br /&gt;
-现在每次都用过去的美好为自己疗伤，感恩过去，想要再次快速的回到战斗&lt;/p&gt;</content><author><name></name></author><summary type="html">感觉自己的内心被自己的身体困住了</summary></entry><entry><title type="html">我的偶像</title><link href="http://localhost:4000/diary/2019/10/31/my-idols.html" rel="alternate" type="text/html" title="我的偶像" /><published>2019-10-31T00:00:00+00:00</published><updated>2019-10-31T00:00:00+00:00</updated><id>http://localhost:4000/diary/2019/10/31/my-idols</id><content type="html" xml:base="http://localhost:4000/diary/2019/10/31/my-idols.html">&lt;p&gt;我一直以来超级崇拜三个人&lt;/p&gt;
-
-&lt;p&gt;第一个是特斯拉，他说&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;「我可以把地球劈成两半」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;第二个是杜尚，他说&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;「我早就不画画了」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;第三个是林纳斯，他最近说&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;「我不再是程序员了」&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">我一直以来超级崇拜三个人</summary></entry></feed>
+现在每次都用过去的美好为自己疗伤，感恩过去，想要再次快速的回到战斗&lt;/p&gt;</content><author><name></name></author><summary type="html">感觉自己的内心被自己的身体困住了</summary></entry></feed>
